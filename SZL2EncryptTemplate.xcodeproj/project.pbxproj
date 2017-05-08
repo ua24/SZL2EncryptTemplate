@@ -13,6 +13,7 @@
 		4C542C1D1EC04EA700CB1C41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C542C1B1EC04EA700CB1C41 /* Main.storyboard */; };
 		4C542C1F1EC04EA700CB1C41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C542C1E1EC04EA700CB1C41 /* Assets.xcassets */; };
 		4C542C221EC04EA700CB1C41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C542C201EC04EA700CB1C41 /* LaunchScreen.storyboard */; };
+		4CD6E6511EC05255006216D9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD6E6501EC05255006216D9 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4C542C1E1EC04EA700CB1C41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C542C211EC04EA700CB1C41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C542C231EC04EA700CB1C41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CD6E6501EC05255006216D9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4C542C171EC04EA700CB1C41 /* FirstViewController.swift */,
 				4C542C191EC04EA700CB1C41 /* SecondViewController.swift */,
 				4C542C1B1EC04EA700CB1C41 /* Main.storyboard */,
+				4CD6E6501EC05255006216D9 /* Constants.swift */,
 				4C542C1E1EC04EA700CB1C41 /* Assets.xcassets */,
 				4C542C201EC04EA700CB1C41 /* LaunchScreen.storyboard */,
 				4C542C231EC04EA700CB1C41 /* Info.plist */,
@@ -142,6 +145,7 @@
 				4C542C1A1EC04EA700CB1C41 /* SecondViewController.swift in Sources */,
 				4C542C161EC04EA700CB1C41 /* AppDelegate.swift in Sources */,
 				4C542C181EC04EA700CB1C41 /* FirstViewController.swift in Sources */,
+				4CD6E6511EC05255006216D9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +309,7 @@
 				4C542C281EC04EA700CB1C41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

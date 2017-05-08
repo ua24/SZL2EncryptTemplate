@@ -39,6 +39,9 @@
                                 <rect key="frame" x="255" y="91" width="53" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Encrypt"/>
+                                <connections>
+                                    <action selector="encryptContentOfTextField" destination="9pv-A4-QxB" eventType="touchUpInside" id="WIK-GS-8oP"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
                                 <rect key="frame" x="63" y="66" width="195" height="17"/>
